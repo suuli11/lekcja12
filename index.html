@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery DOM Traversal</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Ćwiczenia z jQuery DOM Traversal</h1>
+
+    <div id="container1" class="container">
+        <p>Paragraf w div 1 <span>span1</span></p>
+        <div class="nested">
+            <p>Paragraf w zagnieżdżonym div <span>span2</span></p>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+            <a href="https://example.com">Link</a>
+        </div>
+    </div>
+
+    <div id="container2" class="container">
+        <p>Inny paragraf w div 2 <span>span3</span></p>
+        <div class="nested">
+            <p>Kolejny paragraf <span>span4</span></p>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+            </ul>
+            <a href="https://google.com">Link Google</a>
+        </div>
+    </div>
+
+    <br>
+    <button id="showParentsBtn">Pokaż przodków wybranego elementu</button>
+    <button id="showChildrenBtn">Pokaż dzieci wybranego elementu</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

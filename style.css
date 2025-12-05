@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+ul li.active {
+    font-weight: bold;
+}
